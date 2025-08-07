@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.contenu h2{
+    text-align: center;
+}
+.contenu .formulaire1{
+
+box-shadow: 0 0 10px  #858484;
+display: flex;
+width: 900px;
+height: 500px;
+background-color: blueviolet;
+margin-left: 220px;
+border-radius: 15px;
+
+}
+.contenu .gauche{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 65, 65);
+    color: aliceblue;
+    width: 50%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.contenu .gauche h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.contenu .gauche p{
+    font-size: 16px;
+     text-align: center;
+}
+
+.contenu .gauche button{
+    width: 160px;
+ background-color: transparent;
+ border-radius: 19px;
+ margin-left: 147px;
+ margin-top: 60px;
+ padding: 7px;
+ font-weight: bold;
+ border: 1px solid white;
+ color: white;
+ cursor: pointer;
+}
+
+.contenu .formulaire1 .droite{
+    background-color: rgb(240, 254, 255);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+     border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.contenu .formulaire1 .droite h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 39px;
+}
+ .contenu .formulaire1 .droite nav{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 120px;
+ }
+  .contenu .formulaire1 .droite nav img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+margin-left: 20px;
+border: 1px solid white;
+  }
+
+  .contenu .formulaire1 .droite p{
+    text-align: center;
+  }
+  .contenu .formulaire1 .droite form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenu .formulaire1 .droite form input  {
+    width: 60%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 85px;
+    border: none;
+    background-color: rgb(236, 240, 243);
+    outline: none;
+  }
+
+   .contenu .formulaire1 .droite form button{
+     width: 32%;
+    height: 35px;
+    margin-left: 160px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+.contenu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.contenu2 h2{
+    text-align: center;
+}
+.contenu2 .formulaire2{
+
+box-shadow: 0 0 10px  #858484;
+display: flex;
+width: 900px;
+height: 500px;
+background-color: blueviolet;
+margin-left: 220px;
+border-radius: 15px;
+
+}
+.contenu2 .gauche{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    width: 50%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.contenu2 .formulaire2 .gauche h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 39px;
+    color: black;
+}
+ .contenu2 .formulaire2 .gauche nav{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 120px;
+ }
+  .contenu2 .formulaire2 .gauche nav img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .contenu2 .formulaire2 .gauche p{
+    text-align: center;
+    color: black;
+    font-size: 17px;
+  }
+  .contenu2 .formulaire2 .gauche form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenu2 .formulaire2 .gauche form input  {
+    width: 60%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 85px;
+    border: none;
+    background-color: rgb(236, 240, 243);
+    outline: none;
+  }
+
+  .contenu2 .formulaire2 .gauche a{
+     text-align: center;
+       font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 28px;
+  }
+ .contenu2 .formulaire2 .gauche button{
+
+    width: 31%;
+    height: 35px;
+    margin-left: 152px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ .contenu2 .formulaire2 .droite{
+  background-color: rgb(241, 65, 65);
+      width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+ }
+
+ .contenu2 .formulaire2 .droite h1{
+      text-align: center;
+    margin-top: 170px;
+    font-size: 39px;
+ }
+  .contenu2 .formulaire2 .droite p{
+         text-align: center;
+    font-size: 17px;
+    margin: 0;
+  }
+
+    .contenu2 .formulaire2 .droite button{
+
+    width: 31%;
+    height: 35px;
+    margin-left: 152px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    }
